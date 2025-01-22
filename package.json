@@ -12,7 +12,8 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "dotenv": "^16.4.7",
-    "hardhat": "^2.22.17"
+    "hardhat": "^2.22.17",
+    "hardhat-gas-reporter": "^2.2.2"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.9.6",

@@ -13,7 +13,7 @@ describe("ETCToken", function () {
 
   it("Should deploy with correct initial supply", async function () {
     const totalSupply = await token.totalSupply();
-    expect(totalSupply).to.equal(ethers.parseEther("1000000"));
+    expect(totalSupply).to.equal(ethers.parseEther("10000"));
   });
 
   it("Should assign total supply to the owner", async function () {

@@ -19,7 +19,7 @@ contract ETCToken is ERC20, Ownable, Pausable {
 
     constructor() ERC20("ETC Token", "ETC") {
         // Mint 1 million tokens to the contract deployer's address
-        _mint(msg.sender, 1000000 * 10 ** decimals());
+        _mint(msg.sender, 10000 * 10 ** decimals());
     }
 
     // Function to mint new tokens, only the owner can call this function
